@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Silkscreen:wght@400;700&display=swap');
+
+/* 2000s style CSS */
+body {
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    background-color: #e6e6fa;
+    color: #000080;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    font-family: "Silkscreen", sans-serif;
+    background-color: #4682b4;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#nav {
+    background-color: #4169e1;
+    padding: 5px 0;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav li {
+    margin: 0 10px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#nav a:hover {
+    background-color: #1e90ff;
+    border-radius: 3px;
+}
+
+#content {
+    padding: 20px;
+    min-height: 400px;
+}
+
+#footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* Form styles */
+.form-table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form-table td {
+    padding: 5px;
+}
+
+.button {
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1e90ff;
+}
+
+.big-button {
+    display: inline-block;
+    background-color: #4169e1;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.big-button:hover {
+    background-color: #1e90ff;
+}
+
+/* Results table */
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.results-table th, .results-table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.results-table th {
+    background-color: #4682b4;
+    color: white;
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.results-table tr:hover {
+    background-color: #e6e6e6;
+}
+
+.action-cell {
+    white-space: nowrap;
+}
+
+.action-button {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 3px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.view-button {
+    color: #4169e1;
+}
+
+.print-button {
+    color: #2e8b57;
+}
+
+.delete-button {
+    color: #d9534f;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+/* Print-only styles */
+.print-only-content {
+    padding: 20px;
+}
+
+/* Flash messages */
+.flash {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.flash.success {
+    background-color: #90ee90;
+    color: #006400;
+}
+
+.flash.error {
+    background-color: #ffb6c1;
+    color: #8b0000;
+}
+
+.flash.info {
+    background-color: #add8e6;
+    color: #00008b;
+}
+
+/* 2000s special effects */
+.blink {
+    animation: blink 1s step-end infinite;
+    color: red;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.marquee {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.feature-box {
+    background-color: #f0f8ff;
+    border: 1px dashed #4682b4;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.announcement {
+    background-color: #fffacd;
+    border: 1px solid #daa520;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.new-icon {
+    color: red;
+    font-weight: bold;
+}
+
+.hit-counter {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.browser-warning {
+    background-color: #ffebcd;
+    border: 1px solid #cd853f;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.result-summary {
+    background-color: #f0fff0;
+    border: 1px solid #2e8b57;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.feedback {
+    background-color: #fffaf0;
+    border: 1px solid #d2b48c;
+    padding: 15px;
+}
+
+.action-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.small {
+    font-size: 0.8em;
+    color: #666666;
+}
+
+.center {
+    text-align: center;
+}
+
+.print-controls {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.signature-area {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed #000;
+}
+
+.signature-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.feedback-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.strength {
+    color: green;
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.strength:before {
+    content: "✓ ";
+}
+
+.improvement {
+    color: #d9534f;
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.improvement:before {
+    content: "✗ ";
+}
+
+.performance-table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.non-printable {
+    display: block;
+}
+
+/* Print Styles */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .print-only-content, .print-only-content *,
+    .result-container, .result-container * {
+        visibility: visible;
+    }
+
+    .print-only-content,
+    .result-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 12pt;
+    }
+
+    .non-printable, #header, #nav, #footer, .action-box, .print-controls {
+        display: none !important;
+    }
+
+    .print-header {
+        text-align: center;
+        margin-bottom: 20pt;
+        border-bottom: 2pt solid #000;
+        padding-bottom: 10pt;
+    }
+
+    .print-header h2 {
+        font-size: 16pt;
+        margin: 0;
+    }
+
+    .print-header p {
+        font-size: 10pt;
+        margin: 5pt 0 0 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10pt 0;
+        page-break-inside: avoid;
+    }
+
+    th, td {
+        border: 1pt solid #ddd;
+        padding: 6pt;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .feedback-list {
+        margin: 0;
+        padding-left: 15pt;
+    }
+
+    .strength {
+        color: green;
+    }
+
+    .improvement {
+        color: red;
+    }
+
+    .signature-area {
+        margin-top: 30pt;
+        padding-top: 20pt;
+        border-top: 1pt dashed #000;
+    }
+
+    .signature-line {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h2>Welcome to Exam Paper Evaluation System</h2>
+    <div class="blink"><p>New! Now with PDF evaluation capabilities!</p></div>
+
+    <div class="feature-box">
+        <h3>Features:</h3>
+        <ul>
+            <li>Upload Question Papers</li>
+            <li>Upload Answer Keys</li>
+            <li>Evaluate Student Answers</li>
+            <li>Get Detailed Feedback</li>
+        </ul>
+    </div>
+
+    <div class="announcement">
+        <h3>Announcements</h3>
+        <p><span class="new-icon">NEW</span> System upgraded to handle PDF files!</p>
+        <p>Now supporting multiple subjects!</p>
+    </div>
+
+    <div class="hit-counter">
+        <p>Visitors since 2025: <span id="counter">Loading...</span></p>
+    </div>
+
+    <div class="browser-warning">
+        <p>For best experience, use Internet Explorer 6.0 or Netscape Navigator</p>
+    </div>
+{% endblock %}

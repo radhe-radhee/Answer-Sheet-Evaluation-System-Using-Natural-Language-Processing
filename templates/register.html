@@ -1,0 +1,30 @@
+
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+    <h2>Register</h2>
+    <form method="POST" action="{{ url_for('register') }}">
+        <table class="form-table">
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+
+            </tr>
+            <tr>
+                <td colspan="2" class="center">
+                    <input type="submit" value="Register" class="button">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+{% endblock %}

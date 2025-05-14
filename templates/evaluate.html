@@ -1,0 +1,41 @@
+
+{% extends "base.html" %}
+{% block title %}Evaluate Papers{% endblock %}
+{% block content %}
+    <h2>Evaluate Exam Papers</h2>
+
+    <form method="POST" action="{{ url_for('evaluate') }}" enctype="multipart/form-data">
+        <table class="form-table">
+            <tr>
+                <td><label for="question_paper">Question Paper (PDF):</label></td>
+                <td><input type="file" id="question_paper" name="question_paper" accept=".pdf" required></td>
+            </tr>
+            <tr>
+                <td><label for="answer_key">Correct Answer Key (PDF):</label></td>
+                <td><input type="file" id="answer_key" name="answer_key" accept=".pdf" required></td>
+            </tr>
+            <tr>
+                <td><label for="student_answer">Student Answer (PDF):</label></td>
+                <td>
+                    <input type="file" id="student_answer" name="student_answer" accept=".pdf" required>
+                    <p class="small">Filename format: StudentName_SubjectName.pdf</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center">
+                    <input type="submit" value="Evaluate" class="button">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <div class="instructions">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Upload the original question paper PDF</li>
+            <li>Upload the correct answer key PDF</li>
+            <li>Upload student answer PDF (must be named as StudentName_SubjectName.pdf)</li>
+            <li>Click "Evaluate" to get results</li>
+        </ol>
+    </div>
+{% endblock %}

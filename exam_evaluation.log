@@ -1,0 +1,555 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-f2f2691f-74a4-4986-a879-86df41440d9d
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:49:00+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T13:49:00+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:49:00+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:49:00+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:49:00+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0xc0005c1120}} restart:false}"
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=eror msg="terminating with error" obj=app err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+CRITICAL:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=crit msg="command failed" err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:49:01+0000 lvl=info msg="no more state changes" obj=tunnels.session
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-24ac8dad-3c12-42c5-874c-5415f55dca2f
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:51:09+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T13:51:09+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:51:09+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:51:09+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:51:09+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:51:10+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:51:10+0000 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:51:10+0000 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0xc00005bc20}} restart:false}"
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:51:10+0000 lvl=eror msg="terminating with error" obj=app err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+CRITICAL:pyngrok.process.ngrok:t=2025-04-15T13:51:10+0000 lvl=crit msg="command failed" err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-7bdc041b-6e4d-4c08-bca1-68f7dc400933
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:53:11+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T13:53:11+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:53:11+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:53:11+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:53:11+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:53:12+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:53:12+0000 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:53:12+0000 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0xc000902710}} restart:false}"
+ERROR:pyngrok.process.ngrok:t=2025-04-15T13:53:12+0000 lvl=eror msg="terminating with error" obj=app err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+CRITICAL:pyngrok.process.ngrok:t=2025-04-15T13:53:12+0000 lvl=crit msg="command failed" err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-9dba9b30-68e9-4253-94b7-9d0d1ee0cced
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg=start pg=/api/tunnels id=eb42559239f0ffe8
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg=end pg=/api/tunnels id=eb42559239f0ffe8 status=200 dur=520.858µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg=start pg=/api/tunnels id=15e9eaa90f3069ff
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg=end pg=/api/tunnels id=15e9eaa90f3069ff status=200 dur=134.817µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg=start pg=/api/tunnels id=84cbafbcaa9dbc6f
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg="started tunnel" obj=tunnels name=http-5000-9dba9b30-68e9-4253-94b7-9d0d1ee0cced addr=http://localhost:5000 url=https://c15a-35-185-140-63.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-04-15T13:58:14+0000 lvl=info msg=end pg=/api/tunnels id=84cbafbcaa9dbc6f status=201 dur=186.555482ms
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:35+0000 lvl=info msg="join connections" obj=join id=23e32f6fac9f l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:35] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:36+0000 lvl=info msg="join connections" obj=join id=6d06680068c2 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:36] "GET /static/style.css HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:36+0000 lvl=info msg="join connections" obj=join id=ebc194b2b6db l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:36] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:37+0000 lvl=info msg="join connections" obj=join id=5b3bb5dbe240 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:37] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:43+0000 lvl=info msg="join connections" obj=join id=14ae5058cdec l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:43] "GET /register HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:44+0000 lvl=info msg="join connections" obj=join id=60b4107d3186 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:44+0000 lvl=info msg="join connections" obj=join id=941446a7cbb1 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:44] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:45+0000 lvl=info msg="join connections" obj=join id=5a0b3d8a368a l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:45] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:02:47+0000 lvl=info msg="join connections" obj=join id=5c66746c6c9d l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:02:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:07+0000 lvl=info msg="join connections" obj=join id=262f8186ed37 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:08+0000 lvl=info msg="join connections" obj=join id=aec099114350 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:08] "GET /login HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:08+0000 lvl=info msg="join connections" obj=join id=4ee5794a4405 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:08+0000 lvl=info msg="join connections" obj=join id=e718ed027c88 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:09] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:09+0000 lvl=info msg="join connections" obj=join id=b297a45a7d86 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:09] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:28+0000 lvl=info msg="join connections" obj=join id=584535590535 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:28] "POST /login HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:29+0000 lvl=info msg="join connections" obj=join id=5617ee92c997 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:29] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:29+0000 lvl=info msg="join connections" obj=join id=56b1164ca7a5 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:30+0000 lvl=info msg="join connections" obj=join id=c27e683bdd78 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:30] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:47+0000 lvl=info msg="join connections" obj=join id=6b7c57195002 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:47+0000 lvl=info msg="join connections" obj=join id=483c517d825d l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:48+0000 lvl=info msg="join connections" obj=join id=3a7e20a5af3a l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:48] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:49+0000 lvl=info msg="join connections" obj=join id=81bfe079d6a1 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:49] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:49+0000 lvl=info msg="join connections" obj=join id=be791155a789 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:52+0000 lvl=info msg="join connections" obj=join id=86f0c0fd2791 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:52] "GET /evaluate HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:53+0000 lvl=info msg="join connections" obj=join id=364d6f51c741 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:53+0000 lvl=info msg="join connections" obj=join id=ebf2b6cad690 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:53] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:03:54+0000 lvl=info msg="join connections" obj=join id=8eff9ac32f37 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:03:54] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:04:11+0000 lvl=info msg="join connections" obj=join id=47d403ab2b1e l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:04:42] "[32mPOST /evaluate HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:04:42+0000 lvl=info msg="join connections" obj=join id=2eacc933fa33 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:04:42] "GET /result/1 HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:04:43+0000 lvl=info msg="join connections" obj=join id=d2a200882965 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:04:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:04:43+0000 lvl=info msg="join connections" obj=join id=db4d37b1ed43 l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:04:43] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:04:44+0000 lvl=info msg="join connections" obj=join id=e4f734bdb94d l=127.0.0.1:5000 r=185.165.241.171:47894
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:04:44] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:03+0000 lvl=info msg="join connections" obj=join id=c49afa475b26 l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:03] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:03+0000 lvl=info msg="join connections" obj=join id=6d22baca0b49 l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:03] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:04+0000 lvl=info msg="join connections" obj=join id=6c8b49ce92dc l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:04+0000 lvl=info msg="join connections" obj=join id=75b73fc519ff l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:04] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:07+0000 lvl=info msg="join connections" obj=join id=80f834ab3ff7 l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:07] "GET /evaluate HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:08+0000 lvl=info msg="join connections" obj=join id=8f8569ea6425 l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:08+0000 lvl=info msg="join connections" obj=join id=eb4d2f4dec84 l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:08] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:08+0000 lvl=info msg="join connections" obj=join id=ce73420531a3 l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:08] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:06:26+0000 lvl=info msg="join connections" obj=join id=eb226f0b059d l=127.0.0.1:5000 r=185.165.241.171:51858
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:06:58] "[32mPOST /evaluate HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:45+0000 lvl=info msg="join connections" obj=join id=a58db16ba8b0 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:45] "GET /result/2 HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:46+0000 lvl=info msg="join connections" obj=join id=7acb97b423ba l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:47+0000 lvl=info msg="join connections" obj=join id=2c088f8b1194 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:47] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:47+0000 lvl=info msg="join connections" obj=join id=01fa1e818c02 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:47] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:58+0000 lvl=info msg="join connections" obj=join id=c6b0ebd81d84 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:58] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:59+0000 lvl=info msg="join connections" obj=join id=ec237f984103 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:59] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:07:59+0000 lvl=info msg="join connections" obj=join id=6928adfec682 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:07:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:00+0000 lvl=info msg="join connections" obj=join id=876435416be1 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:00] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:05+0000 lvl=info msg="join connections" obj=join id=3a649a774c46 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:05] "[32mPOST /delete_evaluation/2 HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:07+0000 lvl=info msg="join connections" obj=join id=a67071bf7cf1 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:07+0000 lvl=info msg="join connections" obj=join id=7285b9eceecb l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:08+0000 lvl=info msg="join connections" obj=join id=3357f13b5d26 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:08] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:08+0000 lvl=info msg="join connections" obj=join id=60d789a49505 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:08] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:11+0000 lvl=info msg="join connections" obj=join id=8b5871636cd7 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:11] "GET /result/1 HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:12+0000 lvl=info msg="join connections" obj=join id=309c72c9dd27 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:12] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:13+0000 lvl=info msg="join connections" obj=join id=ad8cf0a7c457 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:08:13+0000 lvl=info msg="join connections" obj=join id=b8dba853d019 l=127.0.0.1:5000 r=185.165.241.171:35220
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:08:13] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:18:02+0000 lvl=info msg="join connections" obj=join id=6b9887209323 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65237
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:18:02] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:18:02+0000 lvl=info msg="join connections" obj=join id=4b807d6af17e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65237
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:18:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:18:02+0000 lvl=info msg="join connections" obj=join id=48d5d15288e8 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65237
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:18:02] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:18:03+0000 lvl=info msg="join connections" obj=join id=30a0ef80cf6b l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65237
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:18:03] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-526e632a-b012-42aa-b7cc-9bbd7018c877
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:30+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T14:21:30+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:30+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:30+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:30+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg=start pg=/api/tunnels id=b3da76cf955f5cfd
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg=end pg=/api/tunnels id=b3da76cf955f5cfd status=200 dur=378.807µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg=start pg=/api/tunnels id=182599814c709418
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg=end pg=/api/tunnels id=182599814c709418 status=200 dur=118.384µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg=start pg=/api/tunnels id=762b9b67e913579f
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg="started tunnel" obj=tunnels name=http-5000-526e632a-b012-42aa-b7cc-9bbd7018c877 addr=http://localhost:5000 url=https://865e-35-185-140-63.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:21:31+0000 lvl=info msg=end pg=/api/tunnels id=762b9b67e913579f status=201 dur=182.826683ms
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:27+0000 lvl=info msg="join connections" obj=join id=8a2908aa3fdd l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:27] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:28+0000 lvl=info msg="join connections" obj=join id=8a5633b6fce2 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:28+0000 lvl=info msg="join connections" obj=join id=9c19f4731a59 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:28] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:28] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:28+0000 lvl=info msg="join connections" obj=join id=dccf9e4230cb l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:28] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:29+0000 lvl=info msg="join connections" obj=join id=02b193fd97e6 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:32+0000 lvl=info msg="join connections" obj=join id=d3e6818f819f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:32] "GET /register HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:33+0000 lvl=info msg="join connections" obj=join id=98b304a22123 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:33+0000 lvl=info msg="join connections" obj=join id=68f971cc650c l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:33] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:34+0000 lvl=info msg="join connections" obj=join id=f20cec53bd4d l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:34] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:48+0000 lvl=info msg="join connections" obj=join id=6499063b8983 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:48] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:48+0000 lvl=info msg="join connections" obj=join id=76fe86c177da l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:48] "GET /login HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:49+0000 lvl=info msg="join connections" obj=join id=fda90e872cc7 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:49+0000 lvl=info msg="join connections" obj=join id=a7612a014135 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:49] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:50+0000 lvl=info msg="join connections" obj=join id=ee19234e2ca6 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:50] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:57+0000 lvl=info msg="join connections" obj=join id=61243cfc9155 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:58+0000 lvl=info msg="join connections" obj=join id=0b6993be7636 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:58] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:59+0000 lvl=info msg="join connections" obj=join id=a6edc261f4c1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:59+0000 lvl=info msg="join connections" obj=join id=8ee3256f26df l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:59] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:22:59+0000 lvl=info msg="join connections" obj=join id=3a969536e4f6 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:22:59] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:03+0000 lvl=info msg="join connections" obj=join id=5a33866e1b59 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:03] "GET /evaluate HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:04+0000 lvl=info msg="join connections" obj=join id=688e910ea570 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:04+0000 lvl=info msg="join connections" obj=join id=06b3fdd221a8 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:04] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:04+0000 lvl=info msg="join connections" obj=join id=ce1e45b532ba l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:04] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:17+0000 lvl=info msg="join connections" obj=join id=9bd3b23de1dd l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:36] "[32mPOST /evaluate HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:37+0000 lvl=info msg="join connections" obj=join id=44ab7d19b0d4 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:37] "GET /result/3 HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:38+0000 lvl=info msg="join connections" obj=join id=18646f52b2e3 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:38+0000 lvl=info msg="join connections" obj=join id=8fc8fa06ddaf l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:38] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:23:38+0000 lvl=info msg="join connections" obj=join id=820dab3a5cbb l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65288
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:23:38] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:23+0000 lvl=info msg="join connections" obj=join id=03a745df80bc l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:23] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:24+0000 lvl=info msg="join connections" obj=join id=ba11d340d105 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:24] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:24+0000 lvl=info msg="join connections" obj=join id=a6342f0214e4 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:25+0000 lvl=info msg="join connections" obj=join id=3f59e400a603 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:25] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:27+0000 lvl=info msg="join connections" obj=join id=9c6835fa308b l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:27] "GET /evaluate HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:27+0000 lvl=info msg="join connections" obj=join id=4586f9a80299 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:27+0000 lvl=info msg="join connections" obj=join id=f75fb88d82fd l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:27] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:28+0000 lvl=info msg="join connections" obj=join id=7f93c0cae469 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:24:28] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:24:42+0000 lvl=info msg="join connections" obj=join id=1391652f3804 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:00] "[32mPOST /evaluate HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:00+0000 lvl=info msg="join connections" obj=join id=9d23e2bfa522 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:00] "GET /result/4 HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:01+0000 lvl=info msg="join connections" obj=join id=8c5f1de0496a l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:01] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:01+0000 lvl=info msg="join connections" obj=join id=101dd65bd355 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:02+0000 lvl=info msg="join connections" obj=join id=1cc3466d11f9 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:02] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:07+0000 lvl=info msg="join connections" obj=join id=80ea5e91f686 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:08+0000 lvl=info msg="join connections" obj=join id=9e61892d2605 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:08+0000 lvl=info msg="join connections" obj=join id=294017d713e1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:08] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:08+0000 lvl=info msg="join connections" obj=join id=3ef336bf5210 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:08] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:14+0000 lvl=info msg="join connections" obj=join id=6b64b610c2f3 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:14] "[32mPOST /delete_evaluation/4 HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:14+0000 lvl=info msg="join connections" obj=join id=d2518235cb24 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:14] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:15+0000 lvl=info msg="join connections" obj=join id=542291d1efc0 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:15+0000 lvl=info msg="join connections" obj=join id=d9e02ea80359 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:15] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:16+0000 lvl=info msg="join connections" obj=join id=402bb3383b32 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:16] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:17+0000 lvl=info msg="join connections" obj=join id=318bfb1b5cd1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:17] "GET /result/3 HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:18+0000 lvl=info msg="join connections" obj=join id=dbab18121226 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:18+0000 lvl=info msg="join connections" obj=join id=03fe865f7bb9 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:18+0000 lvl=info msg="join connections" obj=join id=36ee93863519 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:18] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:21+0000 lvl=info msg="join connections" obj=join id=f7759bcc8c9d l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:21] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:22+0000 lvl=info msg="join connections" obj=join id=e1006931f1d1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:22+0000 lvl=info msg="join connections" obj=join id=db3e0740b527 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:22] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:22+0000 lvl=info msg="join connections" obj=join id=0d362a09d42e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:22] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:23+0000 lvl=info msg="join connections" obj=join id=de62a79f396f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:24+0000 lvl=info msg="join connections" obj=join id=7dd6d019fcc1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:24] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:25+0000 lvl=info msg="join connections" obj=join id=486e7f4de35c l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:25+0000 lvl=info msg="join connections" obj=join id=a1b037d24495 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:25] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T14:25:25+0000 lvl=info msg="join connections" obj=join id=03594ea96eb2 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:65322
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:25:25] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-232cd71e-ac3a-41ec-b840-02e8b30af7d3
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg=start pg=/api/tunnels id=97254e1d8e8d9b97
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg=end pg=/api/tunnels id=97254e1d8e8d9b97 status=200 dur=807.265µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg=start pg=/api/tunnels id=48b2266bd9863a46
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg=end pg=/api/tunnels id=48b2266bd9863a46 status=200 dur=144.387µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:11+0000 lvl=info msg=start pg=/api/tunnels id=684c950dc87750b3
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:12+0000 lvl=info msg="started tunnel" obj=tunnels name=http-5000-232cd71e-ac3a-41ec-b840-02e8b30af7d3 addr=http://localhost:5000 url=https://fd0b-35-185-140-63.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:41:12+0000 lvl=info msg=end pg=/api/tunnels id=684c950dc87750b3 status=201 dur=189.718673ms
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-3ed54205-13a4-4e53-a6fc-fa953703447f
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:27+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T15:55:27+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:27+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:27+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:27+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg=start pg=/api/tunnels id=164d373606672e18
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg=end pg=/api/tunnels id=164d373606672e18 status=200 dur=431.343µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg=start pg=/api/tunnels id=5838f938dad73d8b
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg=end pg=/api/tunnels id=5838f938dad73d8b status=200 dur=137.305µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg=start pg=/api/tunnels id=6b1fcbac124b6d28
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg="started tunnel" obj=tunnels name=http-5000-3ed54205-13a4-4e53-a6fc-fa953703447f addr=http://localhost:5000 url=https://fe38-35-185-140-63.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:55:28+0000 lvl=info msg=end pg=/api/tunnels id=6b1fcbac124b6d28 status=201 dur=188.536597ms
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:38+0000 lvl=info msg="join connections" obj=join id=67d4087c1650 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:38] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:38+0000 lvl=info msg="join connections" obj=join id=33934f72d6f7 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:38+0000 lvl=info msg="join connections" obj=join id=ba99b58ca73e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:38] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:39+0000 lvl=info msg="join connections" obj=join id=3fd8f875fa6f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:39] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:40+0000 lvl=info msg="join connections" obj=join id=6f8e6b4d4d8f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:44+0000 lvl=info msg="join connections" obj=join id=20e9ed604681 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:44] "GET /register HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:45+0000 lvl=info msg="join connections" obj=join id=7e5d7cb61171 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:45+0000 lvl=info msg="join connections" obj=join id=47237262d83b l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:45] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:56:46+0000 lvl=info msg="join connections" obj=join id=54ec76d5cd5d l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:56:46] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:35+0000 lvl=info msg="join connections" obj=join id=d569f2d06110 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:35] "POST /register HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:35+0000 lvl=info msg="join connections" obj=join id=6011dcbdb299 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:35+0000 lvl=info msg="join connections" obj=join id=1b6c5d4e351e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:35] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:36+0000 lvl=info msg="join connections" obj=join id=15173e81921a l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:36] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:51+0000 lvl=info msg="join connections" obj=join id=1191e9e8365e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:51] "POST /register HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:52+0000 lvl=info msg="join connections" obj=join id=5a0f82756473 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:52+0000 lvl=info msg="join connections" obj=join id=7488131e4a98 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:52] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:57:52+0000 lvl=info msg="join connections" obj=join id=172b9cd360f5 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:57:52] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:58:40+0000 lvl=info msg="join connections" obj=join id=7fa0fccfca0e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:58:45] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:58:46+0000 lvl=info msg="join connections" obj=join id=92467619789e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:58:46+0000 lvl=info msg="join connections" obj=join id=dc6f44f18786 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:58:46] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:58:46] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T15:58:47+0000 lvl=info msg="join connections" obj=join id=9ab8900436e5 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:58:47] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:00:09+0000 lvl=info msg="join connections" obj=join id=b916ac0ec505 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:00:14] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:00:15+0000 lvl=info msg="join connections" obj=join id=2a8f27b83bae l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:00:15] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:00:15+0000 lvl=info msg="join connections" obj=join id=2e0f31fcd030 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:00:15] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:00:15+0000 lvl=info msg="join connections" obj=join id=c3f19cbe9462 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:00:15] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:02:19+0000 lvl=info msg="join connections" obj=join id=41a3f8d02af6 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49453
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:02:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-8e6ddb0d-ccfe-4d99-a16b-20fa2fe30f91
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:27+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T16:19:27+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:27+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:27+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:27+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg=start pg=/api/tunnels id=6d4ee1fa20fd1b98
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg=end pg=/api/tunnels id=6d4ee1fa20fd1b98 status=200 dur=340.262µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg=start pg=/api/tunnels id=aaf417d600b5014e
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg=end pg=/api/tunnels id=aaf417d600b5014e status=200 dur=129.057µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg=start pg=/api/tunnels id=52720b2e38ceea0d
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg="started tunnel" obj=tunnels name=http-5000-8e6ddb0d-ccfe-4d99-a16b-20fa2fe30f91 addr=http://localhost:5000 url=https://1a60-35-185-140-63.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:19:28+0000 lvl=info msg=end pg=/api/tunnels id=52720b2e38ceea0d status=201 dur=212.536167ms
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:25+0000 lvl=info msg="join connections" obj=join id=8ca200373094 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:25] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:26+0000 lvl=info msg="join connections" obj=join id=278f9b56080a l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:26] "GET /static/style.css HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:26+0000 lvl=info msg="join connections" obj=join id=4524039dafd8 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:26] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:26+0000 lvl=info msg="join connections" obj=join id=1c1401ae1da5 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:26] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:27+0000 lvl=info msg="join connections" obj=join id=d24c99502eee l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:29+0000 lvl=info msg="join connections" obj=join id=15d002d469fd l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:29] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:30+0000 lvl=info msg="join connections" obj=join id=ec8762250b4f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:30] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:30+0000 lvl=info msg="join connections" obj=join id=3513992411d0 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:30] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:31+0000 lvl=info msg="join connections" obj=join id=2792ad6891f0 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:31] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:35+0000 lvl=info msg="join connections" obj=join id=cbdd8d3376f1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:35] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:36+0000 lvl=info msg="join connections" obj=join id=51824fd4ee53 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:36] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:20:36+0000 lvl=info msg="join connections" obj=join id=7dc75f87e06e l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49614
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:20:36] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/lib/python3.11/dist-packages/pyngrok/bin/ngrok
+INFO:pyngrok.ngrok:Opening tunnel named: http-5000-b9e9fdb2-e944-4044-b5b4-8cefbf55a6a6
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/root/.config/ngrok/ngrok.yml legacy_path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg="using configuration at default config path" path=/root/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg="open config file" path=/root/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg=start pg=/api/tunnels id=43ae8ea436e92872
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:45+0000 lvl=info msg=end pg=/api/tunnels id=43ae8ea436e92872 status=200 dur=660.752µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:46+0000 lvl=info msg=start pg=/api/tunnels id=5fcaac52135a0a3a
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:46+0000 lvl=info msg=end pg=/api/tunnels id=5fcaac52135a0a3a status=200 dur=139.452µs
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:46+0000 lvl=info msg=start pg=/api/tunnels id=3509718713ac5566
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:46+0000 lvl=info msg="started tunnel" obj=tunnels name=http-5000-b9e9fdb2-e944-4044-b5b4-8cefbf55a6a6 addr=http://localhost:5000 url=https://3b46-35-185-140-63.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:22:46+0000 lvl=info msg=end pg=/api/tunnels id=3509718713ac5566 status=201 dur=188.822842ms
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:05+0000 lvl=info msg="join connections" obj=join id=5f8f2f709aa1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:05] "GET / HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:06+0000 lvl=info msg="join connections" obj=join id=c07684defb03 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:06] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:06+0000 lvl=info msg="join connections" obj=join id=1b648fe66a20 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:06] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:06] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:06+0000 lvl=info msg="join connections" obj=join id=e0908df2b12c l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:07+0000 lvl=info msg="join connections" obj=join id=9134f8d521dc l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:09+0000 lvl=info msg="join connections" obj=join id=12a0bd3bd68d l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:09] "GET /register HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:09+0000 lvl=info msg="join connections" obj=join id=584432d92115 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:09+0000 lvl=info msg="join connections" obj=join id=543327254da3 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:09] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:10] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:10+0000 lvl=info msg="join connections" obj=join id=7d7240b2367a l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:24+0000 lvl=info msg="join connections" obj=join id=c3d73b4f6a37 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:24] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:25+0000 lvl=info msg="join connections" obj=join id=cf31fe27510f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:25] "GET /login HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:25+0000 lvl=info msg="join connections" obj=join id=8d432cd96613 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:25+0000 lvl=info msg="join connections" obj=join id=3485728c13ff l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:25] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:26+0000 lvl=info msg="join connections" obj=join id=710a280f0054 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:26] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:45+0000 lvl=info msg="join connections" obj=join id=89999da6a2eb l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:45+0000 lvl=info msg="join connections" obj=join id=d5409afbe5b0 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:45] "GET /dashboard HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:46+0000 lvl=info msg="join connections" obj=join id=c7527e3bad6f l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:46+0000 lvl=info msg="join connections" obj=join id=0b18e3916146 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:46] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:46+0000 lvl=info msg="join connections" obj=join id=0f514d86ebe1 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:50+0000 lvl=info msg="join connections" obj=join id=7c30c28b5fc5 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:50] "GET /evaluate HTTP/1.1" 200 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:51+0000 lvl=info msg="join connections" obj=join id=6358dc73a632 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:51] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:51+0000 lvl=info msg="join connections" obj=join id=b18e9779c4c9 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:23:51] "[33mGET /static/print.css HTTP/1.1[0m" 404 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:23:51+0000 lvl=info msg="join connections" obj=join id=3911dc9c937a l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:26:38+0000 lvl=info msg="join connections" obj=join id=f0e405ca1225 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:26:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:pyngrok.process.ngrok:t=2025-04-15T16:26:38+0000 lvl=info msg="join connections" obj=join id=22536732ea25 l=127.0.0.1:5000 r=[2001:4490:4029:c54d:40cc:7231:4e1:1a5e]:49635
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:26:39] "[33mGET /static/print.css HTTP/1.1[0m" 404 -

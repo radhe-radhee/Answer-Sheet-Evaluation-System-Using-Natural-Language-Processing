@@ -1,0 +1,77 @@
+
+{% extends "base.html" %}
+{% block title %}Print Result{% endblock %}
+{% block content %}
+    <div class="print-only-content">
+        {% set results = evaluation.results_json|to_dict %}
+
+        <div class="print-header">
+            <h2>Exam Evaluation Report</h2>
+            <p>Generated on: {{ evaluation.timestamp }}</p>
+        </div>
+
+        <div class="student-info">
+            <h3>Student Information</h3>
+            <p><strong>Name:</strong> {{ evaluation.student_name }}</p>
+            <p><strong>Subject:</strong> {{ evaluation.subject_name }}</p>
+        </div>
+
+        <div class="summary-section">
+            <h3>Summary</h3>
+            <p><strong>Total Score:</strong> {{ "%.1f"|format(results['summary']['total_marks_obtained']) }}/{{ "%.1f"|format(results['summary']['total_possible_marks']) }}</p>
+            <p><strong>Percentage:</strong> {{ "%.1f"|format(results['summary']['percentage_score']) }}%</p>
+            <p><strong>Performance:</strong> {{ results['summary']['performance_category'] }}</p>
+        </div>
+
+        <div class="detailed-results">
+            <h3>Detailed Evaluation</h3>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Score</th>
+                        <th>Feedback</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for question in results['questions'] %}
+                    <tr>
+                        <td>Q{{ question['question_number'] }}</td>
+                        <td>{{ "%.1f"|format(question['evaluation'].get('marks_obtained', 0)) }}/{{ "%.1f"|format(question['max_marks']) }}</td>
+                        <td>
+                            {% if question['evaluation']['status'] == 'unanswered' %}
+                                Not attempted
+                            {% else %}
+                                <ul class="feedback-list">
+                                    {% if question['evaluation']['feedback']['strengths'] %}
+                                        <li class="strength">✓ {{ question['evaluation']['feedback']['strengths'][0] }}</li>
+                                    {% endif %}
+                                    {% if question['evaluation']['feedback']['improvements'] %}
+                                        <li class="improvement">✗ {{ question['evaluation']['feedback']['improvements'][0] }}</li>
+                                    {% endif %}
+                                </ul>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="signature-area">
+            <div class="signature-line">
+                <p>Evaluator: {{ evaluator_name }}</p>
+                <p>Date: {{ current_date }}</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            window.print();
+            setTimeout(function() {
+                window.close();
+            }, 1000);
+        };
+    </script>
+{% endblock %}

@@ -1,0 +1,122 @@
+
+{% extends "base.html" %}
+{% block title %}Evaluation Result{% endblock %}
+{% block content %}
+    <h2>Evaluation Result</h2>
+
+    <div class="print-controls">
+        <button onclick="window.print()" class="button">Print Result</button>
+        <a href="{{ url_for('download_report', evaluation_id=evaluation.id) }}" class="button">Download Full Report</a>
+    </div>
+
+    <div class="result-container">
+        <div class="print-header">
+            <h2>Exam Evaluation Report</h2>
+            <p>Generated on: {{ evaluation.timestamp }}</p>
+        </div>
+
+        <div class="student-info">
+            <h3>Student Information</h3>
+            <p><strong>Name:</strong> {{ evaluation.student_name }}</p>
+            <p><strong>Subject:</strong> {{ evaluation.subject_name }}</p>
+        </div>
+
+        {% set results = evaluation.results_json|to_dict %}
+
+        <div class="summary-section">
+    <h3>Summary</h3>
+
+    <p><strong>Total Score:</strong>
+        {% set total_obtained = results.summary.total_marks_obtained | float
+            if results.summary.total_marks_obtained is defined else 0.0 %}
+        {% set total_possible = results.summary.total_possible_marks | float
+            if results.summary.total_possible_marks is defined else 0.0 %}
+        {{ "%.1f" | format(total_obtained) }}/{{ "%.1f" | format(total_possible) }}
+    </p>
+
+    <p><strong>Percentage:</strong>
+        {% set percentage = results.summary.percentage_score | float
+            if results.summary.percentage_score is defined else 0.0 %}
+        {{ "%.1f" | format(percentage) }}%
+    </p>
+
+    <p><strong>Performance:</strong>
+        {{ results.summary.performance_category | default('Not available') }}
+    </p>
+</div>
+
+
+        <div class="detailed-results">
+            <h3>Detailed Evaluation</h3>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Score</th>
+                        <th>Feedback</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for question in results['questions'] %}
+                    <tr>
+                        <td>Q{{ question['question_number'] }}</td>
+                        <td>{{ "%.1f"|format(question['evaluation'].get('marks_obtained', 0)) }}/{{ "%.1f"|format(question['max_marks']) }}</td>
+                        <td>
+                            {% if question['evaluation']['status'] == 'unanswered' %}
+                                Not attempted
+                            {% else %}
+                                <ul class="feedback-list">
+                                    {% if question['evaluation']['feedback']['strengths'] %}
+                                        <li class="strength">✓ {{ question['evaluation']['feedback']['strengths'][0] }}</li>
+                                    {% endif %}
+                                    {% if question['evaluation']['feedback']['improvements'] %}
+                                        <li class="improvement">✗ {{ question['evaluation']['feedback']['improvements'][0] }}</li>
+                                    {% endif %}
+                                </ul>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="performance-analysis">
+            <h3>Performance Analysis</h3>
+            <table class="performance-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Questions</th>
+                </tr>
+                <tr>
+                    <td>Excellent (≥80%)</td>
+                    <td>{{ results['statistics']['score_distribution'].get('excellent', 0) }}</td>
+                </tr>
+                <tr>
+                    <td>Good (60-79%)</td>
+                    <td>{{ results['statistics']['score_distribution'].get('good', 0) }}</td>
+                </tr>
+                <tr>
+                    <td>Fair (40-59%)</td>
+                    <td>{{ results['statistics']['score_distribution'].get('fair', 0) }}</td>
+                </tr>
+                <tr>
+                    <td>Poor (<40%)</td>
+                    <td>{{ results['statistics']['score_distribution'].get('poor', 0) }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="signature-area">
+            <div class="signature-line">
+                <p>Evaluator: {{ evaluator_name }}</p>
+                <p>Date: {{ current_date }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="action-box non-printable">
+        <a href="{{ url_for('dashboard') }}" class="button">Back to Dashboard</a>
+        <a href="{{ url_for('evaluate') }}" class="button">Evaluate Another</a>
+    </div>
+{% endblock %}

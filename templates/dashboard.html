@@ -1,0 +1,75 @@
+
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <h2>Welcome, {{ session['username'] }}!</h2>
+
+    <div class="user-stats">
+        <p>Total evaluations: {{ evaluations|length }}</p>
+    </div>
+
+    <div class="action-box">
+        <a href="{{ url_for('evaluate') }}" class="big-button">Evaluate New Paper</a>
+    </div>
+
+    <h3>Your Evaluations</h3>
+    {% if evaluations %}
+        <table class="results-table">
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Subject</th>
+                    <th>Score</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for eval in evaluations %}
+                    {% set results = json.loads(eval['results_json']) %}
+                    <tr>
+                        <td>{{ eval['student_name'] }}</td>
+                        <td>{{ eval['subject_name'] }}</td>
+                        <td>{{ "%.1f"|format(results['summary']['total_marks_obtained']) }}/{{ "%.1f"|format(results['summary']['total_possible_marks']) }}</td>
+                        <td>{{ eval['timestamp'] }}</td>
+                        <td class="action-cell">
+                            <a href="{{ url_for('result', evaluation_id=eval['id']) }}"
+                               class="action-button view-button"
+                               title="View Details">
+                               👁️ View
+                            </a>
+                            <a href="{{ url_for('print_result', evaluation_id=eval['id']) }}"
+                               class="action-button print-button"
+                               title="Print"
+                               target="_blank">
+                               🖨️ Print
+                            </a>
+                            <form action="{{ url_for('delete_evaluation', evaluation_id=eval['id']) }}"
+                                  method="POST"
+                                  class="delete-form">
+                                <button type="submit"
+                                        class="action-button delete-button"
+                                        title="Delete">
+                                        🗑️ Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <div class="no-evaluations">
+            <p>No evaluations yet. <a href="{{ url_for('evaluate') }}" class="evaluate-link">Evaluate your first paper!</a></p>
+        </div>
+    {% endif %}
+
+    <div class="dashboard-footer">
+        <p class="hit-counter">Total evaluations processed: {{ evaluations|length }}</p>
+        <div class="blink">
+            <p>System Status: Operational</p>
+        </div>
+    </div>
+{% endblock %}
